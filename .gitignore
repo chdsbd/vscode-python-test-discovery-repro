@@ -1,0 +1,14 @@
+venv/
+.cache/
+.mypy_cache
+.coverage.*
+dist/
+.asset-cache
+backup
+__pycache__
+backend/.pytest_cache
+*env*
+.pytest_cache/
+*.egg*
+pip-wheel-metadata
+.testmondata

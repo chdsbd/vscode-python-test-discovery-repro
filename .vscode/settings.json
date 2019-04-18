@@ -1,0 +1,12 @@
+{
+    // use Miscrosoft's C#-based language server instead of jedi
+    "python.pythonPath": ".venv/bin/python",
+    "python.envFile": "${workspaceFolder}/.vscode/.env",
+    "python.jediEnabled": false,
+    "python.unitTest.pyTestArgs": [
+        "backend"
+    ],
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestEnabled": true
+}
